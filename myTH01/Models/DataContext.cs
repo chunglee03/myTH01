@@ -9,5 +9,6 @@ namespace myTH01.Models
         }
 
         public DbSet<Menu> Menus { get; set; }
+        public DbSet<Post> Posts { get; set; }
     }
 }
